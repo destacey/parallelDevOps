@@ -47,7 +47,7 @@ stages:
       OPERATION: 4
 
     steps:
-      - checkout: KangsBashCalcRepo
+      - checkout: DestaceyBashCalcRepo
       - task: Bash@3
         displayName: 'install bc'
         inputs:
